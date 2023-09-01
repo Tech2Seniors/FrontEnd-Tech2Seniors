@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
+import { HomeComponent } from 'projects/tech2seniors/src/lib/pages/home/home.component';
+import { BasePaginaPadraoComponent } from 'projects/tech2seniors/src/lib/shared/base-pagina-padrao/base-pagina-padrao.component';
+import { Tech2seniorsModule } from 'projects/tech2seniors/src/public-api';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TestComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Tech2seniorsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
