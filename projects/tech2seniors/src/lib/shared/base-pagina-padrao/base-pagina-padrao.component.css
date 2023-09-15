@@ -1,9 +1,9 @@
-* {
-  position: absolute;
+.base-pagina-padrao {
+  margin: 0; /* Remover margens padrão do corpo da página */
+  padding: 0;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: linear-gradient(to bottom, #404E62, #38374D,#34263D, #422E48, #513652);
   filter: saturate(120%);
 }
