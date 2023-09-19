@@ -1,0 +1,21 @@
+p{
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--white-color);
+}
+
+.footer{
+  background: #39273C;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.icons-footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icones {
+  cursor: pointer;
+}

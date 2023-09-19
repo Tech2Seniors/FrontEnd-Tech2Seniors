@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  flex-direction: column;
+}
+
+.titulos {
+  color: #efdfef;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.5px;
+}
+
+.paragrafo {
+  color: #efdfef;
+  padding-inline-start: 20px;
+  text-align: start;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.5px;
+}
+
+.video-container iframe {
+  width: 630px;
+  height: 385px;
+}
+
+@media screen and (max-width: 769px) {
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9: 9 / 16 = 0.5625 */
+    width: 80%;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
