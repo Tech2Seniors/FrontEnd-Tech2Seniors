@@ -1,0 +1,18 @@
+.lista {
+  padding-left: 50px;
+  font-size: 35px;
+  color: #efdfef;
+}
+
+li {
+  padding-bottom: 25px;
+}
+
+.itens-lista {
+  color: #efdfef;
+  font-family: Work Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}

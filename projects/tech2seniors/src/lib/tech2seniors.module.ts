@@ -6,9 +6,17 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
 import { RouterOutlet, Routes, RouterModule } from '@angular/router';
 import { FooterComponent } from './components/footer/footer.component';
+import { SugestoesComponent } from './pages/sugestoes/sugestoes.component';
+import { ConteudosComponent } from './pages/conteudos/conteudos.component';
+import { WhatsappComponent } from './pages/whatsapp/whatsapp.component';
+import { BancoComponent } from './pages/banco/banco.component';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent }
+  { path: '', component: HomeComponent },
+  { path: 'sugestoes', component: SugestoesComponent },
+  { path: 'conteudos', component: ConteudosComponent },
+  { path: 'whatsapp', component: WhatsappComponent },
+  { path: 'banco', component: BancoComponent },
 ];
 
 
@@ -19,7 +27,11 @@ const appRoutes: Routes = [
     BasePaginaPadraoComponent,
     NavbarComponent,
     CardComponent,
-    FooterComponent
+    FooterComponent,
+    SugestoesComponent,
+    ConteudosComponent,
+    WhatsappComponent,
+    BancoComponent
   ],
   imports: [
     RouterOutlet,

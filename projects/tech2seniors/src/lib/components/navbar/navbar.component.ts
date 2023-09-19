@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'navbar',
@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  @Output() clickIcone = new EventEmitter();
   constructor() {}
 
-  teste() {
-    console.log('teste');
-    
+  clickIconeBotao() {
+    this.clickIcone.emit();
   }
 }

@@ -1,0 +1,21 @@
+.textarea {
+  display: flex;
+  justify-content: center;
+}
+
+#textarea {
+  width: 80%;
+  border-radius: 12px;
+}
+
+textarea {
+  padding: 15px;
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container {
+  width: 50%;
+}

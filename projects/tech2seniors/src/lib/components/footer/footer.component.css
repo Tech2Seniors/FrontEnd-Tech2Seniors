@@ -1,38 +1,21 @@
-h2 a{
-  font-family: 'Nunito Sans', sans-serif;
-  color: var(--white-color);
-}
-
 p{
   font-family: 'Nunito Sans', sans-serif;
   color: var(--white-color);
 }
 
-h2 a:hover{
-  color: var(--second-color)  !important;
-  text-decoration: none;
-}
-
-li a:hover{
-  color: var(--second-color)  !important;
-  text-decoration: none;
-}
-
-.cor{
-  background-color:#689CFC;
-}
-
-.cor{
-  background-color: #3b5998;
-}
-
-.tam{
-  font-size: 12px;
-}
-
 .footer{
-  background: #513652;
+  background: #39273C;
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.icons-footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icones {
+  cursor: pointer;
 }
