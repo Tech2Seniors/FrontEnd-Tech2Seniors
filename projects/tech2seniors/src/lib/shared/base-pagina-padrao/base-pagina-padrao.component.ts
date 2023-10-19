@@ -6,11 +6,14 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./base-pagina-padrao.component.css']
 })
 export class BasePaginaPadraoComponent {
-  @Output() clickIcone = new EventEmitter<Event>();
-
+  alert = false;
   constructor() {}
 
   clickIconeNavbar() {
-    this.clickIcone.emit();
+    this.alert = true;
+  }
+
+  clicouFechar() {
+    this.alert = false;
   }
 }
